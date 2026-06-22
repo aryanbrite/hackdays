@@ -147,5 +147,21 @@ button {
     border: 1px solid rgb(255, 255, 255);
 }
 
+@keyframes rig {
+    from {
+        position: fixed;
+        left: -220px;
+    }
+    to {
+        position: fixed;
+        left: 100px;
+    }
+}
+
+.right {
+    animation: rig 2s forwards;
+}
+
+
 
 

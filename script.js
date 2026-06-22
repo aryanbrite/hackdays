@@ -1,4 +1,6 @@
 const prizes = document.querySelectorAll(".prize");
+const prizee = document.getElementById("prizee");
+const prize2 = document.getElementById("prize2");
 
 prizes.forEach((prize) => {
     let offsetX = 0;
@@ -30,3 +32,8 @@ prizes.forEach((prize) => {
         prize.style.cursor = "grab";
     });
 });
+
+prizee.onclick = () => {
+    prize2.classList.add("right");
+    prize3.classList.add("right");
+}
