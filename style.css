@@ -24,8 +24,7 @@ body {
     position: absolute;
     bottom: -13px;
     right: 10px;
-    animation: rock 1s,
-    move 3s ease 1s infinite;
+    animation:move 3s infinite;
 
 }
 
@@ -93,22 +92,18 @@ body {
 #prize1 {
     top: 2px;
     right: 400px;
-    animation: gift 1s;
 }
 #prize2 {
     top: 21vh;
     right: 220px;
-    animation: gift 1s;
 }
 #prize3 {
     top: 48vh;
     right: 220px;
-    animation: gift1 1s
 }
 #prize4 {
     top: 75vh;
     right: 400px;
-    animation: gift1 1s
 }
 #prizee {
     position: fixed;
@@ -162,30 +157,4 @@ button {
     }
 }
 
-@keyframes gift {
-    0% {
-        transform: translateX(30vh) translateY(-30vw);
-    }
-    100% {
-        transform: translateX(0) translateY(0);
-    }
-}
-
-@keyframes gift1 {
-    0% {
-        transform: translateX(30vh) translateY(30vw);
-    }
-    100% {
-        transform: translateX(0) translateY(0);
-    }
-}
-
-@keyframes rock {
-    0% {
-        transform: translateX(-50vh) translateY(50vw);
-    }
-    100% {
-        transform: translateX(30%) translateY(0);
-    }
-}
 
