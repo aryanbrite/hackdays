@@ -50,3 +50,5 @@ prizee.onclick = () => {
     prize4.classList.add("rig1r");
     indiagate.classList.add("aniir");
 }
+
+

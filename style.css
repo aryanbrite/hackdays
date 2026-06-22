@@ -148,6 +148,9 @@ button {
 }
 button:hover {
     cursor:pointer;
+    background-color: white;
+    border: 0.00001px solid rgb(209, 209, 209);
+    color: black;
 }
 
 
@@ -258,4 +261,23 @@ button:hover {
 
 .aniir {
     animation: aniir 1s forwards;
+}
+#wave {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: waveani 2s;
+}
+
+@keyframes waveani {
+    0% {
+        position: fixed;
+        top: -20vh;
+        left: -20vw;   
+    }
+    100% {
+        position: fixed;
+        top: 0;
+        left: 0;   
+    }
 }
