@@ -1,6 +1,7 @@
 const prizes = document.querySelectorAll(".prize");
-const prizee = document.getElementById("prizee");
+const where = document.getElementById("where");
 const prize2 = document.getElementById("prize2");
+const indiagate = document.getElementById("indiagate");
 
 prizes.forEach((prize) => {
     let offsetX = 0;
@@ -33,9 +34,20 @@ prizes.forEach((prize) => {
     });
 });
 
-prizee.onclick = () => {
+where.onclick = () => {
     prize2.classList.add("right");
     prize3.classList.add("right");
     prize1.classList.add("rig1");
     prize4.classList.add("rig1");
+    indiagate.classList.add("anii");
+
+}
+
+prizes.onclick = () => {
+    prize2.classList.re("rightr");
+    prize3.classList.add("rightr");
+    prize1.classList.add("rig1r");
+    prize4.classList.add("rig1r");
+    indiagate.classList.add("anii");
+
 }
