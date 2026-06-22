@@ -51,5 +51,17 @@ body {
 #gm {
     width: 120px;
     position: absolute;
-    top: 35px
+    top: 35px;
+    left: 18px;
+    animation: rot 3s infinite;
+    
+}
+
+@keyframes rot {
+    0% {
+        rotate: 0;
+    }
+    100% {
+        rotate: 360deg;
+    }
 }
