@@ -23,6 +23,7 @@ body {
     position: absolute;
     bottom: -13px;
     right: 10px;
+    animation: move 3s infinite;
 
 }
 
@@ -34,3 +35,16 @@ body {
     position: relative;
     display: inline-block;
 }
+
+@keyframes move {
+    0% {
+        transform: translateX(30%);
+    }
+    50% {
+        transform: translateY(40%);
+    }
+    100% {
+        transform: translateX(30%);
+    }
+}
+
