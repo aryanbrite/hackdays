@@ -10,6 +10,7 @@
     right: 7px;
     width: 80px;
     display: inline-block;
+    animation: down 2s;
     
 }
 
@@ -63,5 +64,14 @@ body {
     }
     100% {
         rotate: 360deg;
+    }
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
     }
 }
