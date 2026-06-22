@@ -24,7 +24,8 @@ body {
     position: absolute;
     bottom: -13px;
     right: 10px;
-    animation: move 3s infinite;
+    animation: rock 1s,
+    move 3s ease 1s infinite;
 
 }
 
@@ -92,18 +93,22 @@ body {
 #prize1 {
     top: 2px;
     right: 400px;
+    animation: gift 1s;
 }
 #prize2 {
     top: 21vh;
     right: 220px;
+    animation: gift 1s;
 }
 #prize3 {
     top: 48vh;
     right: 220px;
+    animation: gift1 1s
 }
 #prize4 {
     top: 75vh;
     right: 400px;
+    animation: gift1 1s
 }
 #prizee {
     position: fixed;
@@ -122,6 +127,22 @@ body {
     left: calc(10% + 140px);
     bottom: 10%
 }
+#timeline {
+    position: fixed;
+    left: calc(10% + 210px);
+    bottom: 10%
+}
+#venue {
+    position: fixed;
+    left: calc(10% + 280px);
+    bottom: 10%
+}
+#sponsors {
+    position: fixed;
+    left: calc(10% + 350px);
+    bottom: 10%
+}
+
 
 button {
     padding: 10px;
@@ -129,4 +150,42 @@ button {
     width: 80px;
     background-color: skyblue;
     border: 1px solid rgb(255, 255, 255);
+    animation: buts 1s;
 }
+
+@keyframes buts {
+    0% {
+        transform: translateX(-50vw);
+    }
+    100% {
+        transform: translateX(calc(0));
+    }
+}
+
+@keyframes gift {
+    0% {
+        transform: translateX(30vh) translateY(-30vw);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes gift1 {
+    0% {
+        transform: translateX(30vh) translateY(30vw);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes rock {
+    0% {
+        transform: translateX(-50vh) translateY(50vw);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+
