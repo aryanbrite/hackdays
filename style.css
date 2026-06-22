@@ -20,6 +20,10 @@ body {
 #rocket {
     width: 70px;
     rotate: 27deg;
+    position: absolute;
+    bottom: -13px;
+    right: 10px;
+
 }
 
 .imagecont {
@@ -27,4 +31,6 @@ body {
     top: 45vh;
     transform: translateY(-50%);
     left: 15vw;
+    position: relative;
+    display: inline-block;
 }
