@@ -256,7 +256,7 @@ button:hover {
 #time1{
     position: fixed;
     right: calc(-25vw + 140px);
-    top: calc(23vh + 160px);
+    top: calc(23vh + 130px);
     transform: translateX(50%);
     
     transition: 1s;
@@ -264,7 +264,7 @@ button:hover {
 
 #time1.show {
     right: calc(20vw + 140px);
-    top: calc(23vh + 160px);
+    top: calc(23vh + 145px);
 }
         @font-face {
         font-family: safiro;
@@ -306,6 +306,6 @@ button:hover {
 
 #when1.show {
     right: calc(20vw + 140px);
-    top: calc(23vh + 70px);
+    top: calc(23vh + 60px);
 }
 
