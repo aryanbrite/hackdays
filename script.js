@@ -14,7 +14,6 @@ where.onclick = () => {
     prize3.classList.add("right");
     prize1.classList.add("rig1");
     prize4.classList.add("rig1");
-
     wave.classList.add("wavenew");
     timel.classList.remove("show");
 
@@ -42,5 +41,6 @@ when.onclick = () => {
     wave.classList.add("wavenew")
     
 }
+
 
 

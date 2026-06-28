@@ -199,13 +199,7 @@ button:hover {
 }
 
 
-.anii {
-    animation: anii 1s forwards;
-}
 
-.aniir {
-    animation: aniir 1s forwards;
-}
 #wave {
     position: fixed;
     top: 0;
@@ -258,30 +252,4 @@ button:hover {
 
 #timel.show {
     right: 20vw;
-}
-
-@keyframes timeani {
-    0% {
-    position: fixed;
-    right: -25vw;
-    top: 23vh;
-    }
-    100% {
-    position: fixed;
-    right: 20vw;
-    top: 23vh;
-    }
-}
-
-@keyframes timeanir {
-    0% {
-    position: fixed;
-    right: 20vw;
-    top: 23vh;
-    }
-    100% {
-    position: fixed;
-    right:-25vw;
-    top: 23vh;
-    }
 }
