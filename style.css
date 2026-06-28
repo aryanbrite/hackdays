@@ -253,14 +253,15 @@ button:hover {
 #timel.show {
     right: 20vw;
 }
-
 #time1{
     position: fixed;
-    right: -25vw;
-    top: 23vh;
+    right: calc(-25vw + 110px);
+    top: calc(23vh + 100px);
+    
     transition: 1s;
 }
 
 #time1.show {
-    right: 20vw;
+    right: calc(20vw + 110px);
+    top: calc(23vh + 100px);
 }
