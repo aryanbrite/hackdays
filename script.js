@@ -11,12 +11,12 @@ where.onclick = () => {
     prize3.classList.remove("rightr");
     prize1.classList.remove("rig1r");
     prize4.classList.remove("rig1r");
-    indiagate.classList.remove("aniir");
+    indiagate.classList.add("add")
     prize2.classList.add("right");
     prize3.classList.add("right");
     prize1.classList.add("rig1");
     prize4.classList.add("rig1");
-    indiagate.classList.add("anii");
+
     wave.classList.add("wavenew");
     timel.classList.remove("show");
 
@@ -28,12 +28,11 @@ prizee.onclick = () => {
     prize3.classList.add("rightr");
     prize1.classList.add("rig1r");
     prize4.classList.add("rig1r");
-    indiagate.classList.add("aniir");
+    indiagate.classList.remove("add")
     prize2.classList.remove("right");
     prize3.classList.remove("right");
     prize1.classList.remove("rig1");
     prize4.classList.remove("rig1");
-    indiagate.classList.remove("anii");
     wave.classList.add("wavenew");
     timel.classList.remove("show");
 }
@@ -44,14 +43,12 @@ when.onclick = () => {
     prize3.classList.remove("rightr");
     prize1.classList.remove("rig1r");
     prize4.classList.remove("rig1r");
-    indiagate.classList.add("aniir");
-    indiagate.classList.remove("anii");
+    indiagate.classList.remove("add");
     timel.classList.add("show");
     prize2.classList.add("right");
     prize3.classList.add("right");
     prize1.classList.add("rig1");
     prize4.classList.add("rig1");
-    indiagate.classList.add("anii");
     wave.classList.add("wavenew")
     
 }

@@ -226,19 +226,11 @@ button:hover {
     position: fixed;
     right: -20vw;
     top: 23vh;
+    transition: 1s;
 }
 
-@keyframes anii {
-    0% {
-        position: fixed;
-        right: -20vw;
-        top: 23vh;
-    }
-    100% {
-        position: fixed;
-        right: 20vw;
-        top: 23vh;
-    }
+#indiagate.add {
+    right:20vw
 }
 
 @keyframes aniir {
