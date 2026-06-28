@@ -309,3 +309,16 @@ button:hover {
     top: calc(23vh + 60px);
 }
 
+#timo{
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+
+#timo.show {
+    right: calc(20vw + 140px);
+    top: calc(23vh + 100px);
+}

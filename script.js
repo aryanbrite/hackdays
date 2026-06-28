@@ -3,6 +3,7 @@ const where = document.getElementById("where");
 const prize2 = document.getElementById("prize2");
 const prize3 = document.getElementById("prize3");
 const prize4 = document.getElementById("prize4");
+const timeline = document.getElementById("timeline")
 const indiagate = document.getElementById("indiagate");
 const wave = document.getElementById("wave");
 const when = document.getElementById("when");
@@ -33,6 +34,7 @@ where.onclick = () => {
     timel.classList.remove("show");
     time1.classList.remove("show");
     when1.classList.remove("show");
+    timo.classList.remove("show");
 
 }
 
@@ -47,6 +49,7 @@ prizee.onclick = () => {
     timel.classList.remove("show");
     time1.classList.remove("show");
     when1.classList.remove("show");
+    timo.classList.remove("show");
     }
 
 
@@ -61,8 +64,21 @@ when.onclick = () => {
     wave.classList.add("wavenew");
     time1.classList.add("show");
     when1.classList.add("show");
+    timo.classList.remove("show");
     
 }
 
-
+timeline.onclick = () => {
+    wave.classList.remove("wavenew");
+    indiagate.classList.remove("add");
+    prize2.classList.add("right");
+    prize3.classList.add("right");
+    prize1.classList.add("rig1");
+    prize4.classList.add("rig1");
+    wave.classList.add("wavenew");
+    timel.classList.remove("show");
+    time1.classList.remove("show");
+    when1.classList.remove("show");
+    timo.classList.add("show");
+    }
 
