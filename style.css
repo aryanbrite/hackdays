@@ -536,9 +536,9 @@ button:hover {
 #container{
     position: fixed;
     top: 10vh;
-    right: -5vh;
+    right: -736px;
     height: 75vh;
-    width:0vw;
+    width:44vw;
     transition: 1s;
     background-image: url("https://cdn.hackclub.com/019f22ae-9ea6-773d-b429-65770937f6f3/Untitled%20design%20(68).png");
     background-size:contain;
