@@ -311,8 +311,8 @@ button:hover {
 
 #timo{
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-30vw + 140px);
+    top: calc(7vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -338,8 +338,8 @@ button:hover {
 
 #cam{
     position: fixed;
-    right: calc(15vw + 230px);
-    top: calc(-50vh + 100px);
+    right: calc(-30vw + 230px);
+    top: calc(13vh);
     transform: translateX(50%);
     width: 70px;
     transition: 1s;
@@ -352,8 +352,8 @@ button:hover {
 }
 #timo1 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-35vw + 140px);
+    top: calc(20vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -365,8 +365,8 @@ button:hover {
 }
 #timo2 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);;
+    right: calc(-40vw + 140px);
+    top: calc(25vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -378,8 +378,8 @@ button:hover {
 }
 #timo3 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-45vw + 140px);
+    top: calc(30vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -391,8 +391,8 @@ button:hover {
 }
 #timo4 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-50vw + 140px);
+    top: calc(35vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -404,8 +404,8 @@ button:hover {
 }
 #timo5 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-55vw + 140px);
+    top: calc(40vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -417,8 +417,8 @@ button:hover {
 }
 #timo6 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-60vw + 140px);
+    top: calc(45vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -430,8 +430,8 @@ button:hover {
 }
 #timo7 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-65vw + 140px);
+    top: calc(50vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -443,8 +443,8 @@ button:hover {
 }
 #timo8 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-70vw + 140px);
+    top: calc(55vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -456,8 +456,8 @@ button:hover {
 }
 #timo9 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-75vw + 140px);
+    top: calc(60vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -469,8 +469,8 @@ button:hover {
 }
 #timo10 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-80vw + 140px);
+    top: calc(65vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -482,8 +482,8 @@ button:hover {
 }
 #timo11 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-85vw + 140px);
+    top: calc(70vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -495,8 +495,8 @@ button:hover {
 }
 #timo12 {
     position: fixed;
-    right: calc(15vw + 140px);
-    top: calc(-50vh + 100px);
+    right: calc(-90vw + 140px);
+    top: calc(75vh);
     transform: translateX(50%);
     
     transition: 1s;
@@ -505,4 +505,21 @@ button:hover {
     right: calc(15vw + 140px);
     top: calc(75vh);
 
+}
+
+
+#container{
+    position: fixed;
+    top: 10px;
+    right: 20vh;
+    height: 1vw;
+    width: 1vw;
+    transition: 1s;
+    background-color: rgb(0, 0, 0);
+}
+
+#container.show{
+    height: 20vw;
+    width: 35vw;
+    background-color: rgb(0, 0, 0);
 }

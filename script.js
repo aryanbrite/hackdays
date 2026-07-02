@@ -144,5 +144,6 @@ timeline.onclick = () => {
     timo11.classList.add("show");
     timo12.classList.add("show");
     cam.classList.add("show");
+    container.classList.add("show")
     }
 
