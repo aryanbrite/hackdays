@@ -52,6 +52,7 @@ where.onclick = () => {
     timo10.classList.remove("show");
     timo11.classList.remove("show");
     timo12.classList.remove("show");
+    container.classList.remove("show")
 
 }
 
@@ -84,6 +85,7 @@ prizee.onclick = () => {
     timo10.classList.remove("show");
     timo11.classList.remove("show");
     timo12.classList.remove("show");
+    container.classList.remove("show")
     }
 
 
@@ -116,6 +118,7 @@ when.onclick = () => {
     timo10.classList.remove("show");
     timo11.classList.remove("show");
     timo12.classList.remove("show");
+    container.classList.remove("show")
     
 }
 
