@@ -563,8 +563,8 @@ button:hover {
 }
 #spon1{
     position: fixed;
-    top: 10vh;
-    right: 30vw;
+    top: -20vh;
+    right: 40vw;
     rotate: 3deg;
     transition: 1s;
 }
@@ -593,8 +593,8 @@ button:hover {
 
 #spon2{
     position: fixed;
-    top: 10vh;
-    right: 13vw;
+    top: -20vh;
+    right: -10vw;
     rotate: 3deg;
     transition: 1s;
 }
@@ -606,8 +606,8 @@ button:hover {
 
 #spon3{
     position: fixed;
-    top: 10vh;
-    right: 30vw;
+    top: 120vh;
+    right: 40vw;
     rotate: 3deg;
     transition: 1s;
 }
@@ -619,8 +619,8 @@ button:hover {
 
 #spon4{
     position: fixed;
-    top: 10vh;
-    right: 13vw;
+    top: 120vh;
+    right: -10vw;
     rotate: 3deg;
     transition: 1s;
 }

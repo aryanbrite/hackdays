@@ -54,6 +54,10 @@ where.onclick = () => {
     timo11.classList.remove("show");
     timo12.classList.remove("show");
     container.classList.remove("show");
+    spon1.classList.remove("show");
+    spon2.classList.remove("show");
+    spon3.classList.remove("show");
+    spon4.classList.remove("show");
 
 }
 
@@ -86,7 +90,11 @@ prizee.onclick = () => {
     timo10.classList.remove("show");
     timo11.classList.remove("show");
     timo12.classList.remove("show");
-    container.classList.remove("show")
+    container.classList.remove("show");
+    spon1.classList.remove("show");
+    spon2.classList.remove("show");
+    spon3.classList.remove("show");
+    spon4.classList.remove("show");
     }
 
 
@@ -120,7 +128,10 @@ when.onclick = () => {
     timo11.classList.remove("show");
     timo12.classList.remove("show");
     container.classList.remove("show");
-    
+    spon1.classList.remove("show");
+    spon2.classList.remove("show");
+    spon3.classList.remove("show");
+    spon4.classList.remove("show");
     
 }
 
@@ -151,6 +162,10 @@ timeline.onclick = () => {
     cam.classList.add("show");
     container.classList.add("show");
     timo.textContent = "Timeline";
+    spon1.classList.remove("show");
+    spon2.classList.remove("show");
+    spon3.classList.remove("show");
+    spon4.classList.remove("show");
     
     }
 
@@ -182,7 +197,11 @@ sponsors.onclick = () => {
     cam.classList.add("show");
     container.classList.add("show");
     timo.textContent = "Sponsors";
-    spon1.classList.add("show")
+    spon1.classList.add("show");
+    spon2.classList.add("show");
+    spon3.classList.add("show");
+    spon4.classList.add("show");
+
     
 }
 
