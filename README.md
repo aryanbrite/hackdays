@@ -10,11 +10,11 @@
 
 
 <p align="center">
+  <img src="https://img.shields.io/badge/MLH-2026%20Season-ffb300?style=for-the-badge&labelColor=red" alt="MLH 2026 Season">
   <img src="https://img.shields.io/badge/Version-v1.0.0-orange?style=for-the-badge&labelColor=222222" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&labelColor=222222" alt="License">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-blue?style=for-the-badge&labelColor=222222" alt="Open Source">
   <img src="https://img.shields.io/badge/Built%20With-HTML%20%26%20CSS-ffd519?style=for-the-badge&labelColor=222222" alt="Built With HTML & CSS">
-  <img src="https://img.shields.io/badge/MLH-2026%20Season-ffb300?style=for-the-badge&labelColor=1565c0" alt="MLH 2026 Season">
   <img src="https://img.shields.io/badge/Made%20with-❤-red?style=for-the-badge&labelColor=222222" alt="Made with Love">
 </p>
 
