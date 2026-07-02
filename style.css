@@ -312,15 +312,15 @@ button:hover {
 #timo{
     position: fixed;
     right: calc(-30vw + 140px);
-    top: calc(7vh);
+    top: calc(5vh);
     transform: translateX(50%);
-    
+    rotate: 3deg;
     transition: 1s;
 }
 
 #timo.show {
-    right: calc(15vw + 140px);
-    top: calc(7vh);
+    right: calc(15vw + 100px);
+    top: calc(5vh);
 }
 
 #prize2.dis {
@@ -346,8 +346,8 @@ button:hover {
 }
 
 #cam.show {
-    left: 7%;
-    top: 3%;
+    left: 3%;
+    top: 0%;
     rotate: -40deg;
     animation: ribbon 2s ease-in-out infinite alternate;
 }
@@ -363,157 +363,157 @@ button:hover {
 #timo1 {
     position: fixed;
     right: calc(-35vw + 140px);
-    top: calc(20vh);
+    top: calc(19vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo1.show {
     right: calc(15vw + 140px);
-    top: calc(20vh);
+    top: calc(19vh);
 
 }
 #timo2 {
     position: fixed;
     right: calc(-40vw + 140px);
-    top: calc(25vh);
+    top: calc(24vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo2.show {
     right: calc(15vw + 140px);
-    top: calc(25vh);
+    top: calc(24vh);
 
 }
 #timo3 {
     position: fixed;
     right: calc(-45vw + 140px);
-    top: calc(30vh);
+    top: calc(29vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo3.show {
     right: calc(15vw + 140px);
-    top: calc(30vh);
+    top: calc(29vh);
 
 }
 #timo4 {
     position: fixed;
     right: calc(-50vw + 140px);
-    top: calc(35vh);
+    top: calc(34vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo4.show {
     right: calc(15vw + 140px);
-    top: calc(35vh);
+    top: calc(34vh);
 
 }
 #timo5 {
     position: fixed;
     right: calc(-55vw + 140px);
-    top: calc(40vh);
+    top: calc(39vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo5.show {
     right: calc(15vw + 140px);
-    top: calc(40vh);
+    top: calc(39vh);
 
 }
 #timo6 {
     position: fixed;
     right: calc(-60vw + 140px);
-    top: calc(45vh);
+    top: calc(44vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo6.show {
     right: calc(15vw + 140px);
-    top: calc(45vh);
+    top: calc(44vh);
 
 }
 #timo7 {
     position: fixed;
     right: calc(-65vw + 140px);
-    top: calc(50vh);
+    top: calc(49vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo7.show {
     right: calc(15vw + 140px);
-    top: calc(50vh);
+    top: calc(49vh);
 
 }
 #timo8 {
     position: fixed;
     right: calc(-70vw + 140px);
-    top: calc(55vh);
+    top: calc(54vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo8.show {
     right: calc(15vw + 140px);
-    top: calc(55vh);
+    top: calc(54vh);
 
 }
 #timo9 {
     position: fixed;
     right: calc(-75vw + 140px);
-    top: calc(60vh);
+    top: calc(59vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo9.show {
     right: calc(15vw + 140px);
-    top: calc(60vh);
+    top: calc(59vh);
 
 }
 #timo10 {
     position: fixed;
     right: calc(-80vw + 140px);
-    top: calc(65vh);
+    top: calc(64vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo10.show {
     right: calc(15vw + 140px);
-    top: calc(65vh);
+    top: calc(64vh);
 
 }
 #timo11 {
     position: fixed;
     right: calc(-85vw + 140px);
-    top: calc(70vh);
+    top: calc(69vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo11.show {
     right: calc(15vw + 140px);
-    top: calc(70vh);
+    top: calc(69vh);
 
 }
 #timo12 {
     position: fixed;
     right: calc(-90vw + 140px);
-    top: calc(75vh);
+    top: calc(74vh);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo12.show {
     right: calc(15vw + 140px);
-    top: calc(75vh);
+    top: calc(74vh);
 
 }
 #timo1,
@@ -529,8 +529,8 @@ button:hover {
 #timo11,
 #timo12 {
     font-size: 20px;
-    font-weight: 650;
-    rotate: 1deg;
+    
+    rotate: 2deg;
 }
 
 #container{
@@ -540,7 +540,7 @@ button:hover {
     height: 75vh;
     width:0vw;
     transition: 1s;
-    background-image: url("https://cdn.hackclub.com/019f2292-813f-78fe-8e5d-b7bab7f3028d/Untitled%20design%20(66).png");
+    background-image: url("https://cdn.hackclub.com/019f22ae-9ea6-773d-b429-65770937f6f3/Untitled%20design%20(68).png");
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
