@@ -1,0 +1,293 @@
+@font-face {
+    font-family: safiro;
+    src: url(assets/safiro-medium-webfont.ttf) format("truetype");
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: safiro, sans-serif;
+    background: white;
+    color: black;
+    overflow-x: hidden;
+}
+
+#mlh-trust-badge {
+    position: fixed;
+    top: 0;
+    right: 15px;
+    width: 80px;
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.section:nth-child(even) {
+    background: #fafafa;
+}
+
+h2.section-title {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: black;
+}
+
+/* Card 1: Logo & Hero */
+.logo-container {
+    position: relative;
+    width: 85vw;
+    max-width: 350px;
+    margin-top: 40px;
+    animation: float 4s ease-in-out infinite;
+}
+
+#logo {
+    width: 100%;
+}
+
+#gm-rotating {
+    position: absolute;
+    width: 25%;
+    top: 7%;
+    left: 4%;
+    z-index: 2;
+    animation: rot 6s linear infinite;
+}
+
+@keyframes rot {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+#rocket-mobile {
+    width: 120px;
+    margin-top: 30px;
+    animation: rocket-sway 3s ease-in-out infinite;
+}
+
+@keyframes rocket-sway {
+    0%, 100% { transform: rotate(-5deg) translateY(0); }
+    50% { transform: rotate(5deg) translateY(-5px); }
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    max-width: 80%;
+}
+
+/* Card 2: Countdown */
+#countdown-section {
+    position: relative;
+    width: 320px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#countdown-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: contain;
+}
+
+#timer-container {
+    position: relative;
+    z-index: 2;
+    /* Adjusting to center within the bubble's usable space */
+    padding-bottom: 10%;
+    padding-left: 5%;
+}
+
+#timer {
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.event-date {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -10px;
+    color: #333;
+}
+
+/* Wave Divider */
+.wave-divider {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -2px; /* Prevent gaps */
+}
+
+/* Card 3: Prizes */
+.prize-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.prize-card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.prize-card:active {
+    transform: scale(0.95);
+}
+
+.prize-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Card 4: Where? */
+#indiagate {
+    width: 220px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
+}
+
+.venue-content p {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 5px 0;
+}
+
+/* Card 5: Timeline */
+#timeline-ribbon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    z-index: 5;
+    animation: ribbon-float 3s ease-in-out infinite alternate;
+}
+
+@keyframes ribbon-float {
+    0% { transform: rotate(-40deg) translateY(0); }
+    100% { transform: rotate(-50deg) translateY(-10px); }
+}
+
+.timeline-wrapper {
+    width: 95%;
+    max-width: 450px;
+    background-image: url("https://cdn.hackclub.com/019f22ae-9ea6-773d-b429-65770937f6f3/Untitled%20design%20(68).png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 15% 10%;
+    border-radius: 25px;
+}
+
+.timeline-list {
+    text-align: left;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 16px;
+    align-items: center;
+    border-left: 2px solid #eee;
+    padding-left: 15px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+}
+
+.time {
+    min-width: 85px;
+    font-weight: 900;
+    color: #444;
+}
+
+/* Card 6: Sponsors */
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.sponsor-grid img {
+    width: 100%;
+    max-width: 130px;
+    transition: all 0.3s ease;
+}
+
+.sponsor-grid img:active {
+    transform: scale(1.1);
+}
+
+footer {
+    padding: 40px 20px;
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: center;
+}
