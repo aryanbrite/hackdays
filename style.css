@@ -713,11 +713,7 @@ button:hover {
         width: 50vw;
     }
     #wave {
-    position: fixed;
-    top: 0;
-    left: 0;
-    animation: waveani 2s;
-    width: 70vw;
+    width: 90vw;
     }
 
 }
