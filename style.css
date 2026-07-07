@@ -689,14 +689,14 @@ button:hover {
     .imagecont{
         left: 49vw;
         transform: translateX(-50%);
-        top: 35vh;
+        top: 30vh;
     }
     #mlh-trust-badge{
         width: 100px;
     }
     #pconly {
         position: fixed;
-        top: 65vh;
+        top: 60vh;
         left: 5vh;
         right: calc(5vh + 150px);
         display: block;
