@@ -696,7 +696,7 @@ button:hover {
     }
     #pconly {
         position: fixed;
-        top: 65vh;
+        bottom: 0;
         left: 5vh;
         right: calc(5vh + 150px);
         display: block;
@@ -704,7 +704,7 @@ button:hover {
     }
     #poki {
         position: fixed;
-        top: 70vh;
+        bottom: 0;
         right:0;
         display: block;
         width: 250px;
