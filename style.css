@@ -698,7 +698,7 @@ button:hover {
         position: fixed;
         top: 65vh;
         left: 5vh;
-        right: 20vh;
+        right: calc(5vh + 150px);
         display: block;
     }
     #poki {
@@ -706,7 +706,7 @@ button:hover {
         top: 65vh;
         right:0;
         display: block;
-        width: 30vw;
+        width: 250px;
     }
 
 }
