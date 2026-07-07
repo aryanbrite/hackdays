@@ -679,17 +679,19 @@ button:hover {
  
     #gm {
         width: 19.59vw;
+        top: 17px;
     }
     #logo {
     width:80vw;
+    
     }
     #rocket{
         width: 11.43vw;
     }
     .imagecont{
-        left: 49vw;
+        left: 47vw;
         transform: translateX(-50%);
-        top: 35vh;
+        top: 30vh;
     }
     #mlh-trust-badge{
         width: 100px;
@@ -707,7 +709,15 @@ button:hover {
         bottom: 0;
         right:0;
         display: block;
-        width: 250px;
+        max-width: 250px;
+        width: 50vw;
+    }
+    #wave {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: waveani 2s;
+    width: 70vw;
     }
 
 }
