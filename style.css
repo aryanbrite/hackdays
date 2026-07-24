@@ -659,24 +659,17 @@ button:hover {
 
 #poki {
         position: fixed;
-        bottom: 0;
-        right:0;
+        bottom: -35vw;
+        right: -35vw;  
         display: block;
         width: 30vw;
         max-width: 200px;
-        animation: pokiani 1s;
+        transition: 1s;
     }
-@keyframes pokiani {
-    0% {
-        position: fixed;
-        bottom: -35vw;
-        right: -35vw;   
-    }
-    100% {
-        position: fixed;
-        bottom: 0;
-        right:0;
-    }
+#poki.show {
+    position: fixed;
+        bottom: 0vw;
+        right: 0vw; 
 }
 @media (max-width:1024px) {
     body {

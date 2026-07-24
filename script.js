@@ -59,6 +59,8 @@ where.onclick = () => {
     spon3.classList.remove("show");
     spon4.classList.remove("show");
     xsc.classList.remove("show");
+    poki.classList.remove("show");
+
 
 
 }
@@ -98,6 +100,8 @@ prizee.onclick = () => {
     spon3.classList.remove("show");
     spon4.classList.remove("show");
     xsc.classList.remove("show");
+    poki.classList.remove("show");
+
 
     }
 
@@ -137,6 +141,8 @@ when.onclick = () => {
     spon3.classList.remove("show");
     spon4.classList.remove("show");
     xsc.classList.remove("show");
+    poki.classList.remove("show");
+
 
     
 }
@@ -173,6 +179,8 @@ timeline.onclick = () => {
     spon3.classList.remove("show");
     spon4.classList.remove("show");
     xsc.classList.remove("show");
+    poki.classList.add("show");
+
 
     
     }
@@ -210,6 +218,8 @@ sponsors.onclick = () => {
     spon3.classList.add("show");
     spon4.classList.add("show");
     xsc.classList.remove("show");
+    poki.classList.add("show");
+
 
 
     
@@ -248,6 +258,7 @@ venue.onclick = () => {
     spon3.classList.remove("show");
     spon4.classList.remove("show");
     xsc.classList.add("show");
+    poki.classList.add("show");
 
     
 }
