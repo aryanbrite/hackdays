@@ -58,6 +58,8 @@ where.onclick = () => {
     spon2.classList.remove("show");
     spon3.classList.remove("show");
     spon4.classList.remove("show");
+    xsc.classList.remove("show");
+
 
 }
 
@@ -95,6 +97,8 @@ prizee.onclick = () => {
     spon2.classList.remove("show");
     spon3.classList.remove("show");
     spon4.classList.remove("show");
+    xsc.classList.remove("show");
+
     }
 
 
@@ -132,6 +136,8 @@ when.onclick = () => {
     spon2.classList.remove("show");
     spon3.classList.remove("show");
     spon4.classList.remove("show");
+    xsc.classList.remove("show");
+
     
 }
 
@@ -166,6 +172,8 @@ timeline.onclick = () => {
     spon2.classList.remove("show");
     spon3.classList.remove("show");
     spon4.classList.remove("show");
+    xsc.classList.remove("show");
+
     
     }
 
@@ -201,7 +209,45 @@ sponsors.onclick = () => {
     spon2.classList.add("show");
     spon3.classList.add("show");
     spon4.classList.add("show");
+    xsc.classList.remove("show");
+
 
     
 }
 
+
+venue.onclick = () => {
+    wave.classList.remove("wavenew");
+    indiagate.classList.remove("add");
+    prize2.classList.add("dis");
+    prize3.classList.add("dis");
+    prize1.classList.add("dis");
+    prize4.classList.add("dis");
+    wave.classList.add("wavenew");
+    timel.classList.remove("show");
+    time1.classList.remove("show");
+    when1.classList.remove("show");
+    timo.classList.add("show");
+    timo1.classList.remove("show");
+    timo2.classList.remove("show");
+    timo3.classList.remove("show");
+    timo4.classList.remove("show");
+    timo5.classList.remove("show");
+    timo6.classList.remove("show");
+    timo7.classList.remove("show");
+    timo8.classList.remove("show");
+    timo9.classList.remove("show");
+    timo10.classList.remove("show");
+    timo11.classList.remove("show");
+    timo12.classList.remove("show");
+    cam.classList.add("show");
+    container.classList.add("show");
+    timo.textContent = "Venue";
+    spon1.classList.remove("show");
+    spon2.classList.remove("show");
+    spon3.classList.remove("show");
+    spon4.classList.remove("show");
+    xsc.classList.add("show");
+
+    
+}

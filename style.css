@@ -130,12 +130,12 @@ body {
     left: calc(10% + 210px);
     bottom: 10%
 }
-#venue {
+#sponsors {
     position: fixed;
     left: calc(10% + 280px);
     bottom: 10%
 }
-#sponsors {
+#venue {
     position: fixed;
     left: calc(10% + 350px);
     bottom: 10%
@@ -184,6 +184,11 @@ button:hover {
 #indiagate.add {
     right:20vw
 }
+
+
+
+
+
 
 @keyframes aniir {
     0% {
@@ -555,11 +560,11 @@ button:hover {
 }
 
 #venue {
-    background-color: rgb(238, 238, 238);
-    background-image: url("https://cdn.hackclub.com/019f23a2-c942-7275-b062-b4dc27bbbb1f/Untitled%20design%20(72).png");
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position:5px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80px;
+    background-color: skyblue;
+    border: 1px solid rgb(255, 255, 255);
 }
 #spon1{
     position: fixed;
@@ -568,6 +573,25 @@ button:hover {
     rotate: 3deg;
     transition: 1s;
 }
+
+
+#xsc{
+    position: fixed;
+    top: 30vh;
+    right: -30vw;
+    rotate: 3deg;
+    transition: 1s;
+}
+
+#xsc img {
+    width: 20vw;
+}
+
+#xsc.show {
+    top: 25vh;
+    right: 16vw;
+}
+
 
 #spon1 img {
     width: 120px;
